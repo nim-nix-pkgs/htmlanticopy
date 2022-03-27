@@ -11,6 +11,7 @@
   inputs.src-htmlAntiCopy-master.ref   = "refs/heads/master";
   inputs.src-htmlAntiCopy-master.owner = "thisago";
   inputs.src-htmlAntiCopy-master.repo  = "htmlAntiCopy";
+  inputs.src-htmlAntiCopy-master.dir   = "";
   inputs.src-htmlAntiCopy-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
